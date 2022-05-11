@@ -1,0 +1,603 @@
+<!DOCTYPE HTML>
+<!--
+	JWplayer Technical Assessment
+-->
+<html>
+	<head>
+		<title>JWplayer Technical Assesment </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://cdn.jwplayer.com/libraries/XPKjoVUL.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images\JW-Player.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Peter Cooper</a></h1>
+					<p> Take Home Assignment<br />
+					</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Introduction</a></li>
+						<li><a href="#two">Section 1</a></li>
+						<li><a href="#three">Section 2</a></li>
+						<li><a href="#four">Section 3</a></li>
+						<li><a href="#five">Section 4</a></li>
+						
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images\Banner2.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h3>JWplayer Technical Assessment </h3>
+										<p>Please find below my submitted answers to the technical assessment...<br />
+										<a href="http://html5up.net"></a></p>
+									</header>
+									<p></p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Section 1</h3>
+									<h4>Writing and communication</h4>
+									<h5>1. Please give a brief description to demonstrate your familiarity with the following
+									formats:</h5>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code"><b>MP4:</b> Commonly used to store video and audio, but it can also be used to store other data such as subtitles and still images </li>
+										<li class="icon solid fa-code"><b>HLS:</b> A media streaming protocol for delivering visual and audio media to viewers over the internet, default for IOS devices</li>
+										<li class="icon solid fa-code"><b>RTMP:</b> An open-source protocol owned by Adobe that's designed to stream audio and video by maintaining low latency connections.</li>
+										<li class="icon solid fa-code"><b>FLV:</b> A file format used by Adobe Flash Player and Adobe AIR to store and deliver synchronized audio and video streams
+										over the Internet. There are two different FLV formats, F4V for H.264-based content and open FLV for other supported codecs.</li>
+										<li class="icon solid fa-code"><b>WEBM:</b> A documented, non-propriety, royal free open-source format developed and maintained by Google optimized for
+										web-based media content.</li>
+										<li class="icon solid fa-code"><b> VAST:</b> “Video Ad Serving Template,” is a script that gives video players information about which ad to play, how the
+										ad should show up, how long it should last, and whether users are able to skip it.</li>
+										<li class="icon solid fa-code"><b>IMA:</b> Interactive Media Ads (IMA) is a suite of SDKs that make it easy to integrate multimedia ads into your websites and
+										apps. IMA SDKs can request ads from any VAST-compliant ad server and manage ad playback in your apps.
+										</li>
+										<li class="icon solid fa-code"><b>VPAID:</b> Stands for Video Player Ad-Serving Interface Definition. It's an ad template with a focus on delivering inline creatives
+										to video players. VPAID inherits the IAB communication standard for delivery and third-party video players when layered
+										with VAST.</li>
+										<li class="icon solid fa-code"><b>VMAP:</b> Video Multiple Ad Playlist (VMAP) specification is an XML template that video content owners can use to describe the
+										structure for ad inventory insertion when they don't control the video player or the content distribution outlet.</li>
+										<li class="icon solid fa-code"><b>WideVine:</b> Widevine Classic uses .WVM file format, which is a proprietary packaging format. Widevine Modular: It is current
+										Widevine DRM which is developed with new specifications and features. Widevine Modular supports adaptive streaming
+										formats such as DASH/HLS as well as HTML5 standards</li>
+										<li class="icon solid fa-code"><b>PlayReady:</b> Specifies the number of PlayReady Object Records in the PlayReady Object. Contains a variable number of records that
+										contain information related to licenses and license acquisition.</li>
+										<li class="icon solid fa-code"><b>FairPlay:</b> A digital rights management (DRM) technology developed by Apple Inc. It is built into the MP4 multimedia
+										file format as an encrypted AAC audio layer, and was used until April 2009 by the company to protect copyrighted works
+										sold through iTunes Store, allowing only authorized devices to play the content.</li>
+
+									</ul>
+
+									<h5>2. Which of the above video formats do not playback on mobile devices?</h5>
+									<p> WEBM: Needs a third-party app to play on IOS devices. Whereas Android devices despite a fact that WebM is on the list of Android Supported Media Formats, uses tend to run into the following issues;<br>
+
+										<ul>
+											<li> The WebM file is corrupted or damaged during the device-to-device transferring or downloading from Web.</li>
+									
+											<li> WebM file may not have been encoded in common video codec (VP8 or VP9). </li>
+									
+											<li> You are using media player that cannot recognize and decode WebM file.</li>
+									
+											<li>The current device OS build version doesn't support WebM file. </li> 
+										</ul> <br>
+
+										<h5>Not asked but answered...</h5>
+									Widevine modular is supported on Android (4.4 – 5.1), Android (6+) and Huawei but not on Windows phones and IOS devices.<br>
+										<br>
+									WideVine Classic is supported on Android (3.1 – 4.3) and Android (4.4 – 5.1) but not on Android (6+), IOS, Windows phones and Huawei devices.<br>
+										<br>
+									PlayReady is only supported on Windows phones.<br>
+									<br>
+									Fairplay works on IOS but not on android, Huawei and windows mobile phones or tablets.
+								</p>
+								<br>
+
+								<h5>3. How would you explain an SDK to someone who doesn’t have a strong background
+								in technology?</h5>
+
+								<p><b>Software Development Kits</b><br>
+									 SDK stands for “Software Development Kit”, which is a great way to think about it — a kit. Think about putting together
+								a model car or plane. When constructing this model, a whole kit of items is needed, including the kit pieces themselves,
+								the tools needed to put them together, assembly instructions, and so forth.<br>
+								<br>
+								An SDK or devkit functions in much the same way, providing a set of tools, libraries, relevant documentation, code
+								samples, processes, and or guides that allow developers to create software applications on a specific platform. </p>
+								
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Section 2</h3>
+									<p>Embedding JW Player on a web page</p>
+									
+									<h5>Level 1 - Set up a JW Player. Use the OnComplete() feature from our JavaScript API, to pop
+									up a JavaScript alert that says "thanks for watching!" when the video completes</h5>
+
+
+
+								
+
+									<!--Java Video Attempt-->
+									<div></div>
+
+											<div class="example">
+												
+			
+												<div id="myElement"> Loading the player </div>
+													<div id="myElement"></div>
+														<script type="text/JavaScript">
+																jwplayer("myElement").setup({ 
+																		"playlist": [{
+																		"file": "https://content.jwplatform.com/videos/5E8Ox11S-60lzMTFR.mp4"
+																		
+													}]
+												});
+											</script>
+									
+									<script>
+										jwplayer("myElement").on('complete', function () {
+											alert("Thanks for watching!");
+										});
+									</script>
+								</div> 
+							</section>
+
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Section 3</h3>
+									<h5>Playback issue.<br>
+									One of our customers has opened a support case stating that their video
+									(https://d2onmd7jxrypb4.cloudfront.net/myvideo.m3u8) will not play back.</h5>
+
+									<br>
+
+									<ul>
+											<li> The HTTP 403 is an HTTP status code meaning access to the requested resource is forbidden. The server understood the
+											request, but will not fulfill it. This could be related to geoblocking which is technology that restricts access to internet content based upon the user's geographical location.</li>
+												<br>
+												To fix this issue in cloud front you could...
+													<ol>1. Open the CloudFront console.</ol>
+													<ol>2. Choose the distribution that you want to apply geo restriction to.</ol>
+													<ol>3. Choose the Geographic Restrictions tab.</ol>
+													<ol>4. Choose Edit.</ol>
+													<ol>5. To allow access to countries, for Restriction type choose Allow List</ol>
+													<ol>6. For Countries, select the countries that you want to allow or block.</ol>
+													<ol>7. Choose Save Changes</ol>
+												<br>
+											<li>The request is initiated over HTTP, but the CloudFront distribution is configured to only allow HTTPS requests.</li>
+											<br>
+											<li>The requested alternate domain name (CNAME) isn't associated with the CloudFront distribution.</li>
+											<br>
+											<li>Try adding https:// infront of cloudfront domain, an "alternate domain" to the cloudfront distribution in the control pannel. For instance... www.example.com vs example.com. CloudFront requires both domains to be covered in the alternative domain names list,
+											which requires a single AWS ACM SSL cert to cover both, as well as the appropriate CNAME records configured in the DNS.</li>
+											<br>
+											<li>The request could not be satisfied. Request Blocked" is an error from the client. This error can occur due to AWS Web
+											Application Firewall (AWS WAF) rules associated with the CloudFront distribution. To troubleshoot this error, first
+											check the AWS WAF default action that is set on the associated web access control list (web ACL).</li>
+
+									</ul>
+									
+
+
+								</div>
+							</section>
+
+
+
+						<!-- Four -->
+						<section id="five">
+							<div class="container">
+
+								<h3>Section 4</h3>
+								<h5>Below you will find a workplace scenario. <br>
+									Your answer can be brief, one paragraph is
+								sufficient. Please be as honest as possible on how you would approach these issues. We
+								are looking for diverse and innovative solutions to our everyday problems. There is no right
+								or wrong.</h5><br>
+
+										<h4><b>Scenario:</b></h4>
+															<p><i> One of our customers has a critical/P1 support issue. Their live video stream has failed to
+															start at the scheduled time. The customer is extremely frustrated as this has happened
+															twice in the past 6 months. The support team resolved the issue within the customer’s
+															Service Level Agreement on both occasions however the customer is not happy that the
+															same issue has occurred on two different occasions and has lost faith in the solution. How
+															would you deal with this scenario? </i></p>
+
+
+										<h4><b>Answer:</b></h4>
+
+											<p>Confirm that both issues are the same, Confirm what percentage of customers were affected by the live stream fault,
+												Has there been a problem raised under the ITIL working format and submitted to the relevent team to resolve ongoing issue with the solution? 
+												Take ownership of the issue and present findings to customer whilst comparing both "failed starts". Show empathy with the cusomer and ensure them that 
+												full commincation will be provided until the faulty live stream start has been fixed. 
+											</p>
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: Peter Cooper</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
